@@ -1,8 +1,13 @@
+from itertools import count
+from time import time
 import aiohttp
 import asyncio
 from datetime import datetime
 import json
+import pytz
 
+timezone = pytz.timezone('Europe/Berlin')
+datetime_format = "%d.%m.%Y %H:%M"
 
 class EFA:
     def __init__(self, url, proximity_search=False):
@@ -67,14 +72,25 @@ def displayall(depatures):
     for depature in depatures["departureList"]:
         line = depature["servingLine"]["number"]
         route = depature["servingLine"]["direction"]
-        deptime = getDateTime(depature["dateTime"])
-        print(line, route, deptime)
+        deptime = getDateTime(depature["dateTime"]) # realDateTime = Incl Verstpätung, dateTime = Fahrplan
+        commingin = deptime - getCurrentDate()
+        countdown = depature["countdown"]
+        if countdown == "0":
+            print(line, route, deptime.strftime(datetime_format), "sofort")
+        if int(countdown) < 60:
+            print(line, route, deptime.strftime(datetime_format), f"in: {countdown} min")
+        if int(countdown) < 120:
+            print(line, route, deptime.strftime(datetime_format))
+
+def getCurrentDate():
+    now = datetime.now(timezone)
+    return datetime(year=int(now.year),month=int(now.month),day=int(now.day),hour=int(now.hour),minute=int(now.minute),tzinfo=timezone)
 
 def getDateTime(data):
     year = data["year"]
     month = data["month"]
-    weekday =  data["day"]
-    day = data["weekday"]
+    weekday =  data["weekday"]
+    day = data["day"]
     hour = data["hour"]
     minute = data["minute"]
 
@@ -87,7 +103,8 @@ def getDateTime(data):
     if len(month) < 2:
         month = "0" + month
 
-    date = datetime.strptime(f"{day}.{month}.{year} {hour}:{minute}", "%d.%m.%Y %H:%M")
+    date = datetime(year=int(year),month=int(month),day=int(day),hour=int(hour),minute=int(minute),tzinfo=timezone)
+    #date = datetime.strptime(f"{day}.{month}.{year} {hour}:{minute}", "%d.%m.%Y %H:%M")
     return date
 
 if __name__ == "__main__":
