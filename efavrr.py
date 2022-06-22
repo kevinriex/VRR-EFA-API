@@ -1,10 +1,10 @@
-from turtle import title
 import aiohttp
 import asyncio
 from datetime import datetime
 import json
 import pytz
 import terminaltables
+import os
 
 timezone = pytz.timezone('Europe/Berlin')
 datetime_format = "%d.%m.%Y %H:%M"
@@ -50,9 +50,11 @@ class EFA:
 async def main():
     now = datetime.now()
     departures = await EFA("https://efa.vrr.de/standard/").get_departures(
-        "Ratingen", "Perkerhof", now
+        "Ratingen", "Mitte", now
     )
     #print(json.dumps(departures))
+    #with open('data.json', 'w') as outfile:
+     #   json.dump(departures, outfile)
     return departures
 
 
@@ -68,21 +70,30 @@ def display(departures):
     else:
         print(line, route, deptime)
     
-def displayall(depatures):
-    stop = depatures["dm"]["points"]["point"]["name"]
-    print(f"Depatures for: { stop }")
-    for depature in depatures["departureList"]:
-        line = depature["servingLine"]["number"]
-        route = depature["servingLine"]["direction"]
-        deptime = getDateTime(depature["dateTime"]) # realDateTime = Incl Verstpätung, dateTime = Fahrplan
+def displayall(departures):
+    stop = departures["dm"]["points"]["point"]["name"]
+    print(f"departures for: { stop }")
+    for departure in departures["departureList"]:
+        line = departure["servingLine"]["number"]
+        route = departure["servingLine"]["direction"]
+        deptime = getDateTime(departure["dateTime"]) # realDateTime = Incl Verstpätung, dateTime = Fahrplan
+        platform = departure["platformName"]
+        if "delay" in departure["servingLine"]:
+            delay = departure["servingLine"]["delay"]
+        else:
+            delay = 0
         commingin = deptime - getCurrentDate()
-        countdown = depature["countdown"]
-        if countdown == "0":
-            print(line, route, deptime.strftime(datetime_format), "sofort")
-        if int(countdown) < 60:
-            print(line, route, deptime.strftime(datetime_format), f"in: {countdown} min")
-        if int(countdown) < 120:
-            print(line, route, deptime.strftime(datetime_format))
+        countdown = departure["countdown"]
+
+        if len(countdown) < 2:
+            countdown = "0" + countdown
+
+        if int(countdown) < 1:
+            print(line, route, platform, deptime.strftime(datetime_format),delay, "sofort")
+        if int(countdown) > 0 and int(countdown) < 60:
+            print(line, route, platform, deptime.strftime(datetime_format), delay, f"in: {countdown} min")
+        if int(countdown) < 120 and int(countdown) > 60:
+            print(line, route, platform, deptime.strftime(datetime_format), delay)
 
 def getCurrentDate():
     now = datetime.now(timezone)
@@ -110,29 +121,48 @@ def getDateTime(data):
     return date
 
 def displayalltable(rawdata):
-    header = [["line","destination","depature","countdown"]]
+    header = [["line","destination","platform","depature","delay","countdown"]]
     data = list(header)
-    for depature in rawdata["departureList"]:
-        line = depature["servingLine"]["number"]
-        route = depature["servingLine"]["direction"]
-        deptime = getDateTime(depature["dateTime"]) # realDateTime = Incl Verstpätung, dateTime = Fahrplan
-        countdown = depature["countdown"]
-        if countdown == "0":
-            package = [line,route,deptime,countdown]
+    for departure in rawdata["departureList"]:
+        line = departure["servingLine"]["number"]
+        route = departure["servingLine"]["direction"]
+
+        #realDateTime = Incl Verstpätung, dateTime = Fahrplan
+        if "realDateTime" in departure:
+            deptime = getDateTime(departure["realDateTime"])
+        else:
+            deptime = getDateTime(departure["dateTime"])
+        platform = departure["platformName"]
+        if "delay" in departure["servingLine"]:
+            delay = departure["servingLine"]["delay"]
+        else:
+            delay = 0
+        
+        countdown = departure["countdown"]
+        if len(countdown) < 2:
+            countdown = "0" + countdown
+        
+        if int(countdown) < 1:
+            package = [line,route,platform,deptime,delay,"now"]
             data.append(package)
-        if int(countdown) < 60:
-            package = [line, route, deptime.strftime(datetime_format), f"in: {countdown} min"]
+        if int(countdown) > 0 and int(countdown) < 60:
+            package = [line, route, platform, deptime.strftime(datetime_format), delay, f"in: {countdown} min"]
             data.append(package)
-        if int(countdown) < 120:
-            package = [line, route, deptime.strftime(datetime_format)]
+        if int(countdown) < 120 and int(countdown) > 60:
+            package = [line, route, platform, deptime.strftime(datetime_format), delay]
             data.append(package)
 
-    print("\n")
     table = terminaltables.AsciiTable(data, title=rawdata["dm"]["points"]["point"]["name"])
     print(table.table)
 
 if __name__ == "__main__":
-    data = asyncio.get_event_loop().run_until_complete(main())
-    #display(data)
+    '''if asyncio.get_event_loop().is_running():
+        data = asyncio.get_event_loop().run_until_complete(main())
+    else:
+        loop = asyncio.new_event_loop()
+        data = loop.run_until_complete(main())'''
+    
+    data = asyncio.run(main())
     #displayall(data)
     displayalltable(data)
+    os.system("pause")

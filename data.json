@@ -1,0 +1,2518 @@
+{
+    "parameters": [
+        {
+            "name": "serverID",
+            "value": "EFA3_"
+        },
+        {
+            "name": "requestID",
+            "value": "0"
+        },
+        {
+            "name": "sessionID",
+            "value": "0"
+        },
+        {
+            "name": "calcTime",
+            "value": "206.420"
+        },
+        {
+            "name": "serverTime",
+            "value": "2022-06-22T19:00:52"
+        }
+    ],
+    "dm": {
+        "input": {
+            "input": "Perkerhof"
+        },
+        "points": {
+            "point": {
+                "usage": "dm",
+                "type": "stop",
+                "name": "Ratingen, Perkerhof",
+                "stateless": "20019578",
+                "tariffArea": "",
+                "tariffAreaName": "",
+                "tariffLayer1": "",
+                "tariffLayer2": "",
+                "ref": {
+                    "id": "20019578",
+                    "gid": "de:05158:19578",
+                    "omc": "5158028",
+                    "placeID": "15",
+                    "place": "Ratingen",
+                    "coords": "766259.00000,5314435.00000"
+                },
+                "infos": null
+            }
+        }
+    },
+    "arr": {
+        "input": {
+            "input": ""
+        },
+        "points": null
+    },
+    "dateTime": {
+        "deparr": "dep",
+        "ttpFrom": "20220301",
+        "ttpTo": "20221031",
+        "year": "2022",
+        "month": "6",
+        "day": "22",
+        "hour": "19",
+        "minute": "0"
+    },
+    "dateRange": [
+        {
+            "day": "22",
+            "month": "06",
+            "year": "2022",
+            "weekday": "4"
+        },
+        {
+            "day": "23",
+            "month": "06",
+            "year": "2022",
+            "weekday": "5"
+        },
+        {
+            "day": "24",
+            "month": "06",
+            "year": "2022",
+            "weekday": "6"
+        },
+        {
+            "day": "25",
+            "month": "06",
+            "year": "2022",
+            "weekday": "7"
+        },
+        {
+            "day": "26",
+            "month": "06",
+            "year": "2022",
+            "weekday": "1"
+        },
+        {
+            "day": "27",
+            "month": "06",
+            "year": "2022",
+            "weekday": "2"
+        },
+        {
+            "day": "28",
+            "month": "06",
+            "year": "2022",
+            "weekday": "3"
+        },
+        {
+            "day": "29",
+            "month": "06",
+            "year": "2022",
+            "weekday": "4"
+        },
+        {
+            "day": "30",
+            "month": "06",
+            "year": "2022",
+            "weekday": "5"
+        },
+        {
+            "day": "01",
+            "month": "07",
+            "year": "2022",
+            "weekday": "6"
+        },
+        {
+            "day": "02",
+            "month": "07",
+            "year": "2022",
+            "weekday": "7"
+        },
+        {
+            "day": "03",
+            "month": "07",
+            "year": "2022",
+            "weekday": "1"
+        },
+        {
+            "day": "04",
+            "month": "07",
+            "year": "2022",
+            "weekday": "2"
+        },
+        {
+            "day": "05",
+            "month": "07",
+            "year": "2022",
+            "weekday": "3"
+        },
+        {
+            "day": "06",
+            "month": "07",
+            "year": "2022",
+            "weekday": "4"
+        }
+    ],
+    "option": {
+        "ptOption": {
+            "active": "-1",
+            "maxChanges": "9",
+            "maxTime": "360",
+            "maxWait": "120",
+            "routeType": "LEASTTIME",
+            "changeSpeed": "normal",
+            "lineRestriction": "400",
+            "useProxFootSearch": "0",
+            "useProxFootSearchOrigin": "0",
+            "useProxFootSearchDestination": "0",
+            "bike": "0",
+            "plane": "0",
+            "noCrowded": "0",
+            "noSolidStairs": "0",
+            "noEscalators": "0",
+            "noElevators": "0",
+            "lowPlatformVhcl": "0",
+            "wheelchair": "0",
+            "needElevatedPlt": "0",
+            "assistance": "0",
+            "SOSAvail": "0",
+            "noLonelyTransfer": "0",
+            "illumTransfer": "0",
+            "overgroundTransfer": "0",
+            "noInsecurePlaces": "0",
+            "privateTransport": "0",
+            "excludedMeans": [
+                {
+                    "value": "0",
+                    "selected": "0"
+                },
+                {
+                    "value": "1",
+                    "selected": "0"
+                },
+                {
+                    "value": "2",
+                    "selected": "0"
+                },
+                {
+                    "value": "3",
+                    "selected": "0"
+                },
+                {
+                    "value": "4",
+                    "selected": "0"
+                },
+                {
+                    "value": "5",
+                    "selected": "0"
+                },
+                {
+                    "value": "6",
+                    "selected": "0"
+                },
+                {
+                    "value": "7",
+                    "selected": "0"
+                },
+                {
+                    "value": "8",
+                    "selected": "0"
+                },
+                {
+                    "value": "9",
+                    "selected": "0"
+                },
+                {
+                    "value": "10",
+                    "selected": "0"
+                },
+                {
+                    "value": "11",
+                    "selected": "0"
+                },
+                {
+                    "value": "12",
+                    "selected": "0"
+                },
+                {
+                    "value": "13",
+                    "selected": "0"
+                },
+                {
+                    "value": "14",
+                    "selected": "0"
+                },
+                {
+                    "value": "15",
+                    "selected": "0"
+                },
+                {
+                    "value": "16",
+                    "selected": "0"
+                },
+                {
+                    "value": "17",
+                    "selected": "0"
+                },
+                {
+                    "value": "18",
+                    "selected": "0"
+                },
+                {
+                    "value": "19",
+                    "selected": "0"
+                }
+            ],
+            "activeImp": "-1",
+            "activeCom": "-1",
+            "activeSec": "-1"
+        }
+    },
+    "servingLines": {
+        "lines": [
+            {
+                "mode": {
+                    "name": "Niederflurbus O16",
+                    "number": "O16",
+                    "product": "Niederflurbus",
+                    "productId": "13",
+                    "type": "5",
+                    "code": "5",
+                    "destination": "Ratingen Ost S",
+                    "destID": "20018634",
+                    "desc": "Rtg.-Breitscheid, Am Kessel - Lintorf - Ratingen Mitte - Ratingen Ost",
+                    "timetablePeriod": "Jahresfahrplan 2022 (10.01.2022 - 08.01.2023)",
+                    "diva": {
+                        "branch": "72",
+                        "line": "72O16",
+                        "supplement": " ",
+                        "dir": "H",
+                        "project": "j22",
+                        "network": "rbg",
+                        "stateless": "rbg:72O16: :H:j22",
+                        "globalId": "de:vrr:rbg-72-O16:",
+                        "tripCode": "0",
+                        "operator": "Rheinbahn",
+                        "opPublicCode": "RBG",
+                        "opCode": "70",
+                        "vF": "20220110",
+                        "vTo": "20230108",
+                        "lineDisplay": "line",
+                        "isSTT": "1",
+                        "isROP": "1",
+                        "attrs": []
+                    }
+                },
+                "index": "5:0"
+            },
+            {
+                "mode": {
+                    "name": "Niederflurbus O16",
+                    "number": "O16",
+                    "product": "Niederflurbus",
+                    "productId": "13",
+                    "type": "5",
+                    "code": "5",
+                    "destination": "Ratingen Am Kessel",
+                    "destID": "20019576",
+                    "desc": "Ratingen Ost  - Ratingen Mitte - Lintorf - Rtg.-Breitscheid, Am Kessel",
+                    "timetablePeriod": "Jahresfahrplan 2022 (10.01.2022 - 08.01.2023)",
+                    "diva": {
+                        "branch": "72",
+                        "line": "72O16",
+                        "supplement": " ",
+                        "dir": "R",
+                        "project": "j22",
+                        "network": "rbg",
+                        "stateless": "rbg:72O16: :R:j22",
+                        "globalId": "de:vrr:rbg-72-O16:",
+                        "tripCode": "0",
+                        "operator": "Rheinbahn",
+                        "opPublicCode": "RBG",
+                        "opCode": "70",
+                        "vF": "20220110",
+                        "vTo": "20230108",
+                        "lineDisplay": "line",
+                        "isSTT": "1",
+                        "isROP": "1",
+                        "attrs": []
+                    }
+                },
+                "index": "5:1"
+            },
+            {
+                "mode": {
+                    "name": "Niederflurbus E",
+                    "number": "E",
+                    "product": "Niederflurbus",
+                    "productId": "13",
+                    "type": "5",
+                    "code": "5",
+                    "destination": "Ratingen Am Kessel",
+                    "destID": "20019576",
+                    "desc": "E-Wagen Tiefenbroich",
+                    "timetablePeriod": "Jahresfahrplan 2022 (10.01.2022 - 08.01.2023)",
+                    "diva": {
+                        "branch": "72",
+                        "line": "720E6",
+                        "supplement": " ",
+                        "dir": "R",
+                        "project": "j22",
+                        "network": "rbg",
+                        "stateless": "rbg:720E6: :R:j22",
+                        "globalId": "de:vrr:rbg-72-E6:",
+                        "tripCode": "0",
+                        "operator": "Rheinbahn",
+                        "opPublicCode": "RBG",
+                        "opCode": "70",
+                        "vF": "20220110",
+                        "vTo": "20230108",
+                        "lineDisplay": "line",
+                        "attrs": []
+                    }
+                },
+                "index": "5:2"
+            },
+            {
+                "mode": {
+                    "name": "TaxiBus O14",
+                    "number": "O14",
+                    "product": "TaxiBus",
+                    "productId": "14",
+                    "type": "10",
+                    "code": "8",
+                    "destination": "Ratingen H\u00f6sel S",
+                    "destID": "20019528",
+                    "desc": "Ratingen-Breitscheid, Am Kessel - Mintarder Weg - An der P\u00f6nt - Krummenweg - Ratingen-H\u00f6sel",
+                    "timetablePeriod": "Jahresfahrplan 2022 (10.01.2022 - 08.01.2023)",
+                    "diva": {
+                        "branch": "72",
+                        "line": "72O14",
+                        "supplement": " ",
+                        "dir": "H",
+                        "project": "j22",
+                        "network": "rbg",
+                        "stateless": "rbg:72O14: :H:j22",
+                        "globalId": "de:vrr:rbg-72-O14:",
+                        "tripCode": "0",
+                        "operator": "Rheinbahn",
+                        "opPublicCode": "RBG",
+                        "opCode": "70",
+                        "vF": "20220110",
+                        "vTo": "20230108",
+                        "lineDisplay": "line",
+                        "isSTT": "1",
+                        "isROP": "1",
+                        "attrs": []
+                    }
+                },
+                "index": "10:0"
+            },
+            {
+                "mode": {
+                    "name": "TaxiBus O14",
+                    "number": "O14",
+                    "product": "TaxiBus",
+                    "productId": "14",
+                    "type": "10",
+                    "code": "8",
+                    "destination": "Ratingen Am Kessel",
+                    "destID": "20019576",
+                    "desc": "Ratingen-H\u00f6sel  - Krummenweg - An der P\u00f6nt - Mintarder Weg - Ratingen-Breitscheid, Am Kessel",
+                    "timetablePeriod": "Jahresfahrplan 2022 (10.01.2022 - 08.01.2023)",
+                    "diva": {
+                        "branch": "72",
+                        "line": "72O14",
+                        "supplement": " ",
+                        "dir": "R",
+                        "project": "j22",
+                        "network": "rbg",
+                        "stateless": "rbg:72O14: :R:j22",
+                        "globalId": "de:vrr:rbg-72-O14:",
+                        "tripCode": "0",
+                        "operator": "Rheinbahn",
+                        "opPublicCode": "RBG",
+                        "opCode": "70",
+                        "vF": "20220110",
+                        "vTo": "20230108",
+                        "lineDisplay": "line",
+                        "isSTT": "1",
+                        "isROP": "1",
+                        "attrs": []
+                    }
+                },
+                "index": "10:1"
+            }
+        ]
+    },
+    "departureList": [
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "5",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "5"
+            },
+            "servingLine": {
+                "key": "38",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen H\u00f6sel S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019528",
+                "stateless": "rbg:72O14: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "8",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "8"
+            },
+            "realDateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "8"
+            },
+            "realtimeTripStatus": "MONITORED",
+            "servingLine": {
+                "key": "105",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "1",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "delay": "0",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            },
+            "attrs": [
+                {
+                    "name": "AVMSTripID",
+                    "value": "RB_VIA.2453003"
+                }
+            ]
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "12",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "12"
+            },
+            "realDateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "12"
+            },
+            "realtimeTripStatus": "MONITORED",
+            "servingLine": {
+                "key": "246",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "1",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "delay": "0",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            },
+            "attrs": [
+                {
+                    "name": "AVMSTripID",
+                    "value": "RB_VIA.5269003"
+                }
+            ]
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "14",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "14"
+            },
+            "servingLine": {
+                "key": "82",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen H\u00f6sel S",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O14: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "25",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "25"
+            },
+            "servingLine": {
+                "key": "39",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen H\u00f6sel S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019528",
+                "stateless": "rbg:72O14: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "31",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "31"
+            },
+            "realDateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "31"
+            },
+            "realtimeTripStatus": "MONITORED",
+            "servingLine": {
+                "key": "249",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "1",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "delay": "0",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            },
+            "attrs": [
+                {
+                    "name": "AVMSTripID",
+                    "value": "RB_VIA.6026003"
+                }
+            ]
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "34",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "34"
+            },
+            "servingLine": {
+                "key": "83",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen H\u00f6sel S",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O14: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "38",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "38"
+            },
+            "realDateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "38"
+            },
+            "realtimeTripStatus": "MONITORED",
+            "servingLine": {
+                "key": "108",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "1",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "delay": "0",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            },
+            "attrs": [
+                {
+                    "name": "AVMSTripID",
+                    "value": "RB_VIA.5270003"
+                }
+            ]
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "45",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "45"
+            },
+            "servingLine": {
+                "key": "40",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen H\u00f6sel S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019528",
+                "stateless": "rbg:72O14: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "51",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "51"
+            },
+            "realDateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "51"
+            },
+            "realtimeTripStatus": "MONITORED",
+            "servingLine": {
+                "key": "251",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "1",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "delay": "0",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            },
+            "attrs": [
+                {
+                    "name": "AVMSTripID",
+                    "value": "RB_VIA.5259003"
+                }
+            ]
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "54",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "19",
+                "minute": "54"
+            },
+            "servingLine": {
+                "key": "84",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen H\u00f6sel S",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O14: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "70",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "20",
+                "minute": "10"
+            },
+            "servingLine": {
+                "key": "111",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "74",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "20",
+                "minute": "14"
+            },
+            "servingLine": {
+                "key": "85",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen H\u00f6sel S",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O14: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "79",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "20",
+                "minute": "19"
+            },
+            "realDateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "20",
+                "minute": "19"
+            },
+            "realtimeTripStatus": "MONITORED",
+            "servingLine": {
+                "key": "253",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "1",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "delay": "0",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            },
+            "attrs": [
+                {
+                    "name": "AVMSTripID",
+                    "value": "RB_VIA.5967003"
+                }
+            ]
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "100",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "20",
+                "minute": "40"
+            },
+            "servingLine": {
+                "key": "113",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "109",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "20",
+                "minute": "49"
+            },
+            "servingLine": {
+                "key": "255",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "130",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "21",
+                "minute": "10"
+            },
+            "servingLine": {
+                "key": "115",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "139",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "21",
+                "minute": "19"
+            },
+            "servingLine": {
+                "key": "257",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "160",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "21",
+                "minute": "40"
+            },
+            "servingLine": {
+                "key": "117",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "169",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "21",
+                "minute": "49"
+            },
+            "servingLine": {
+                "key": "259",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "190",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "22",
+                "minute": "10"
+            },
+            "servingLine": {
+                "key": "118",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "199",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "22",
+                "minute": "19"
+            },
+            "servingLine": {
+                "key": "261",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "220",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "22",
+                "minute": "40"
+            },
+            "servingLine": {
+                "key": "119",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "229",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "22",
+                "minute": "49"
+            },
+            "servingLine": {
+                "key": "262",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "250",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "23",
+                "minute": "10"
+            },
+            "servingLine": {
+                "key": "120",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "259",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "23",
+                "minute": "19"
+            },
+            "servingLine": {
+                "key": "263",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "280",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "23",
+                "minute": "40"
+            },
+            "servingLine": {
+                "key": "121",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "289",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "22",
+                "weekday": "4",
+                "hour": "23",
+                "minute": "49"
+            },
+            "servingLine": {
+                "key": "264",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "310",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "0",
+                "minute": "10"
+            },
+            "servingLine": {
+                "key": "147",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Oberbusch",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019231",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "608",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "8"
+            },
+            "servingLine": {
+                "key": "27",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "612",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "12"
+            },
+            "servingLine": {
+                "key": "287",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Oberbusch",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "628",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "28"
+            },
+            "servingLine": {
+                "key": "28",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "632",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "32"
+            },
+            "servingLine": {
+                "key": "288",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Oberbusch",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "645",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "45"
+            },
+            "servingLine": {
+                "key": "1",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen H\u00f6sel S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019528",
+                "stateless": "rbg:72O14: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "648",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "48"
+            },
+            "servingLine": {
+                "key": "29",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "651",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "5",
+                "minute": "51"
+            },
+            "servingLine": {
+                "key": "176",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "665",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "6",
+                "minute": "5"
+            },
+            "servingLine": {
+                "key": "2",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen H\u00f6sel S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019528",
+                "stateless": "rbg:72O14: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766240",
+            "y": "5314438",
+            "mapName": "MRCV",
+            "area": "1",
+            "platform": "1",
+            "platformName": "1",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "666",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "6",
+                "minute": "6"
+            },
+            "servingLine": {
+                "key": "30",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Ost S",
+                "directionFrom": "Ratingen Am Kessel",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "H",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20018634",
+                "stateless": "rbg:72O16: :H:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "671",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "6",
+                "minute": "11"
+            },
+            "servingLine": {
+                "key": "177",
+                "code": "5",
+                "number": "O16",
+                "symbol": "O16",
+                "motType": "5",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen Ost S",
+                "name": "Niederflurbus",
+                "liErgRiProj": {
+                    "line": "72O16",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O16:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O16: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        },
+        {
+            "stopID": "20019578",
+            "x": "766291",
+            "y": "5314423",
+            "mapName": "MRCV",
+            "area": "2",
+            "platform": "2",
+            "platformName": "2",
+            "stopName": "Ratingen Perkerhof",
+            "nameWO": "Perkerhof",
+            "countdown": "674",
+            "dateTime": {
+                "year": "2022",
+                "month": "6",
+                "day": "23",
+                "weekday": "5",
+                "hour": "6",
+                "minute": "14"
+            },
+            "servingLine": {
+                "key": "46",
+                "code": "8",
+                "number": "O14",
+                "symbol": "O14",
+                "motType": "10",
+                "mtSubcode": "0",
+                "realtime": "0",
+                "direction": "Ratingen Am Kessel",
+                "directionFrom": "Ratingen H\u00f6sel S",
+                "name": "TaxiBus",
+                "hints": [
+                    {
+                        "content": "Linie O14: Der TaxiBus f\u00e4hrt nur nach Ihrer telefonischen Voranmeldung. Bestellen Sie mindestens 30 Min. vor der Abfahrtzeit unter 0211-582 4141 (Kosten f\u00fcr ein Festnetzgespr\u00e4ch). Die Ortsbuslinie f\u00e4hrt von Haltestelle zu Haltestelle zum normalen VRR-Tarif (ohne"
+                    }
+                ],
+                "liErgRiProj": {
+                    "line": "72O14",
+                    "project": "j22",
+                    "direction": "R",
+                    "supplement": " ",
+                    "network": "rbg",
+                    "gid": "de:vrr:rbg-72-O14:"
+                },
+                "destID": "20019576",
+                "stateless": "rbg:72O14: :R:j22",
+                "lineDisplay": "line"
+            },
+            "operator": {
+                "code": "70",
+                "name": "Rheinbahn",
+                "publicCode": "RBG"
+            }
+        }
+    ]
+}
