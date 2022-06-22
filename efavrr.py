@@ -1,10 +1,10 @@
-from itertools import count
-from time import time
+from turtle import title
 import aiohttp
 import asyncio
 from datetime import datetime
 import json
 import pytz
+import terminaltables
 
 timezone = pytz.timezone('Europe/Berlin')
 datetime_format = "%d.%m.%Y %H:%M"
@@ -69,6 +69,8 @@ def display(departures):
         print(line, route, deptime)
     
 def displayall(depatures):
+    stop = depatures["dm"]["points"]["point"]["name"]
+    print(f"Depatures for: { stop }")
     for depature in depatures["departureList"]:
         line = depature["servingLine"]["number"]
         route = depature["servingLine"]["direction"]
@@ -107,7 +109,30 @@ def getDateTime(data):
     #date = datetime.strptime(f"{day}.{month}.{year} {hour}:{minute}", "%d.%m.%Y %H:%M")
     return date
 
+def displayalltable(rawdata):
+    header = [["line","destination","depature","countdown"]]
+    data = list(header)
+    for depature in rawdata["departureList"]:
+        line = depature["servingLine"]["number"]
+        route = depature["servingLine"]["direction"]
+        deptime = getDateTime(depature["dateTime"]) # realDateTime = Incl Verstpätung, dateTime = Fahrplan
+        countdown = depature["countdown"]
+        if countdown == "0":
+            package = [line,route,deptime,countdown]
+            data.append(package)
+        if int(countdown) < 60:
+            package = [line, route, deptime.strftime(datetime_format), f"in: {countdown} min"]
+            data.append(package)
+        if int(countdown) < 120:
+            package = [line, route, deptime.strftime(datetime_format)]
+            data.append(package)
+
+    print("\n")
+    table = terminaltables.AsciiTable(data, title=rawdata["dm"]["points"]["point"]["name"])
+    print(table.table)
+
 if __name__ == "__main__":
     data = asyncio.get_event_loop().run_until_complete(main())
     #display(data)
-    displayall(data)
+    #displayall(data)
+    displayalltable(data)
