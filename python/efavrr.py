@@ -50,7 +50,7 @@ class EFA:
 async def main():
     now = datetime.now()
     departures = await EFA("https://efa.vrr.de/standard/").get_departures(
-        "Ratingen", "Mitte", now
+        "Ratingen", "Perkerhof", now
     )
     #print(json.dumps(departures))
     #with open('data.json', 'w') as outfile:
@@ -143,7 +143,7 @@ def displayalltable(rawdata):
             countdown = "0" + countdown
         
         if int(countdown) < 1:
-            package = [line,route,platform,deptime,delay,"now"]
+            package = [line,route,platform,deptime.strftime(datetime_format),delay,"now"]
             data.append(package)
         if int(countdown) > 0 and int(countdown) < 60:
             package = [line, route, platform, deptime.strftime(datetime_format), delay, f"in: {countdown} min"]
