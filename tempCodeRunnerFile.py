@@ -48,8 +48,13 @@ async def main():
         "Ratingen", "Perkerhof", now
     )
     #print(json.dumps(departures))
-    print(departures["depatureList"])
+    return departures
 
 
-if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(main())
+
+def display(departures):
+    line = departures["departureList"][0]["servingLine"]["number"]
+    route = departures["departureList"][0]["servingLine"]["direction"]
+    deptime = getDateTime(departures["departureList"][0]["dateTime"])
+    
+    if 

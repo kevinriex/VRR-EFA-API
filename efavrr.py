@@ -48,6 +48,11 @@ async def main():
         "Ratingen", "Perkerhof", now
     )
     #print(json.dumps(departures))
+    return departures
+
+
+
+def display(departures):
     line = departures["departureList"][0]["servingLine"]["number"]
     route = departures["departureList"][0]["servingLine"]["direction"]
     deptime = getDateTime(departures["departureList"][0]["dateTime"])
@@ -57,6 +62,13 @@ async def main():
         print(line, route, deptime, delay) 
     else:
         print(line, route, deptime)
+    
+def displayall(depatures):
+    for depature in depatures["departureList"]:
+        line = depature["servingLine"]["number"]
+        route = depature["servingLine"]["direction"]
+        deptime = getDateTime(depature["dateTime"])
+        print(line, route, deptime)
 
 def getDateTime(data):
     year = data["year"]
@@ -65,7 +77,20 @@ def getDateTime(data):
     day = data["weekday"]
     hour = data["hour"]
     minute = data["minute"]
-    return f"{day}.{month}.{year} {hour}:{minute}"
+
+    if len(hour) < 2:       #CHANGE!!!
+        hour = "0" + hour
+    if len(minute) < 2:
+        minute = "0" + minute
+    if len(day) < 2:
+        day = "0" + day
+    if len(month) < 2:
+        month = "0" + month
+
+    date = datetime.strptime(f"{day}.{month}.{year} {hour}:{minute}", "%d.%m.%Y %H:%M")
+    return date
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(main())
+    data = asyncio.get_event_loop().run_until_complete(main())
+    #display(data)
+    displayall(data)

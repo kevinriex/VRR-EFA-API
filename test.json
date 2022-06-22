@@ -41,10 +41,9 @@
                     "omc": "5158028",
                     "placeID": "15",
                     "place": "Ratingen",
-                    "coords": "766259.00000,
-                    5314435.00000"
+                    "coords": "766259.00000,5314435.00000"
                 },
-                "infos": None
+                "infos": "None"
             }
         }
     },
@@ -52,7 +51,7 @@
         "input": {
             "input": ""
         },
-        "points": None
+        "points": "None"
     },
     "dateTime": {
         "deparr": "dep",
@@ -682,44 +681,6 @@
                 "name": "Rheinbahn",
                 "publicCode": "RBG"
             }
-        },
-        {
-            "stopID": "20019578",
-            "x": "766291",
-            "y": "5314423",
-            "mapName": "MRCV",
-            "area": "2",
-            "platform": "2",
-            "platformName": "2",
-            "stopName": "Ratingen Perkerhof",
-            "nameWO": "Perkerhof",
-            "countdown": "31",
-            "dateTime": {
-                "year": "2022",
-                "month": "6",
-                "day": "22",
-                "weekday": "4",
-                "hour": "15",
-                "minute": "32"
-            },
-            "realDateTime": {
-                "year": "2022",
-                "month": "6",
-                "day": "22",
-                "weekday": "4",
-                "hour": "15",
-                "minute": "32"
-            },
-            "realtimeTripStatus": "MONITORED",
-            "servingLine": {
-                "key": "225",
-                "code": "5",
-                "number": "O16",
-                "symbol": "O16",
-                "motType": "5",
-                "mtSubcode": "0",
-                "realtime": "1",
-                "direction": "Ratingen Am Kessel",
-                "directionFrom": "Ratingen Ost S",
-                "name": "Niederflurbus",
-                "delay": "0", "liErgRiPro
+        }
+    ]
+}
