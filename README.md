@@ -19,4 +19,4 @@ departures = await EFA("https://efa.vrr.de/standard/").get_departures(
 ```  
 
 ## Output:
-![Output Beispiel](https://kevinriex.de/rrnGH)
+![Output Beispiel](https://kevinriex.de/ZAVAs)
