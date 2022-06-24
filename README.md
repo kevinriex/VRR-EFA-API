@@ -16,4 +16,7 @@ departures = await EFA("https://efa.vrr.de/standard/").get_departures(
 departures = await EFA("https://efa.vrr.de/standard/").get_departures(
     "Ratingen", "Mitte", now
     )
-```   
+```  
+
+## Output:
+![Output Beispiel](https://kevinriex.de/rrnGH)
