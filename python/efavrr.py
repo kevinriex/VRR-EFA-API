@@ -5,6 +5,7 @@ import json
 import pytz
 import terminaltables
 import os
+from sys import argv
 
 timezone = pytz.timezone('Europe/Berlin')
 datetime_format = "%d.%m.%Y %H:%M"
@@ -50,7 +51,7 @@ class EFA:
 async def main():
     now = datetime.now()
     departures = await EFA("https://efa.vrr.de/standard/").get_departures(
-        "Ratingen", "Perkerhof", now
+        city, station, now
     )
     #print(json.dumps(departures))
     #with open('data.json', 'w') as outfile:
@@ -155,6 +156,18 @@ def displayalltable(rawdata):
     table = terminaltables.AsciiTable(data, title=rawdata["dm"]["points"]["point"]["name"])
     print(table.table)
 
+def doc():
+    print("\nCorrect usage of this command\n")
+    print("Version 1: departures [Station]")
+    print("     In this case the city is 'Ratingen'")
+    print("Version 2: departures [CITY] [STATION]")
+    print("     In this case the city and station are given.")
+
+def start():
+    data = asyncio.run(main())
+    #displayall(data)
+    displayalltable(data)
+
 if __name__ == "__main__":
     '''if asyncio.get_event_loop().is_running():
         data = asyncio.get_event_loop().run_until_complete(main())
@@ -162,7 +175,20 @@ if __name__ == "__main__":
         loop = asyncio.new_event_loop()
         data = loop.run_until_complete(main())'''
     
-    data = asyncio.run(main())
-    #displayall(data)
-    displayalltable(data)
+    if len(argv) == 1:
+        print("You have to provide at least one argument...")
+        doc()
+    if len(argv) == 2:
+        print("The city is now 'Ratingen'.")
+        city = "Ratingen"
+        station = argv[1]
+        start()
+    if len(argv) == 3:
+        city = argv[1]
+        station = argv[2]
+        start()
+    if len(argv) >= 4:
+        print("Too many arguments...")
+        doc()
+    
     os.system("pause")
