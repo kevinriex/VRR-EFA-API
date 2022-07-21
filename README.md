@@ -2,6 +2,17 @@
 
 Mit diesem Commandline Tool kann man die Abfahrten jeder VRR Haltestelle in der Komandozeile auslesen.
 
+
+## Version 1.1
+
+Nun ist es auch möglich via argv zu arbeiten
+
+```bash
+departures [Stadt] [Haltestelle]
+```
+
+## Version 1.0
+
 Hierzu einfach in Zeile 53 der [evavrr.py](python/efavrr.py) die Haltestelle eintragen.
 
 ## Syntax:
