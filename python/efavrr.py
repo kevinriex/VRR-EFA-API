@@ -11,6 +11,10 @@ timezone = pytz.timezone('Europe/Berlin')
 datetime_format = "%d.%m.%Y %H:%M"
 
 class EFA:
+    '''
+    Die Klasse der API.
+    Hier sind die funktionen der API als Methoden dargestellt.
+    '''
     def __init__(self, url, proximity_search=False):
         self.dm_url = url + "/XML_DM_REQUEST"
         self.dm_post_data = {
@@ -26,6 +30,9 @@ class EFA:
             self.dm_post_data["useProxFootSearch"] = "1"
 
     async def get_departures(self, place, name, ts):
+        '''
+        Fragt die nächsten Abfahrten an gegebener Haltestelle bei der API an.
+        Anschließend werden diese als JSON zurück gegeben.'''
         self.dm_post_data.update(
             {
                 "itdDateDay": ts.day,
@@ -49,6 +56,10 @@ class EFA:
 
 
 async def main():
+    '''
+    Erzegt ein neues EFA Objekt.
+    Gibt den API Response "get departures" zurück.
+    '''
     now = datetime.now()
     departures = await EFA("https://efa.vrr.de/standard/").get_departures(
         city, station, now
@@ -61,6 +72,10 @@ async def main():
 
 
 def display(departures):
+    '''
+    Gibt die nächste Abfahrt aus.
+    Ganz simpel ohne Formatierung.
+    '''
     line = departures["departureList"][0]["servingLine"]["number"]
     route = departures["departureList"][0]["servingLine"]["direction"]
     deptime = getDateTime(departures["departureList"][0]["dateTime"])
@@ -72,6 +87,10 @@ def display(departures):
         print(line, route, deptime)
     
 def displayall(departures):
+    '''
+    Gibt die nächsten Abfahrten aus.
+    Ganz simpel ohne Formatierung.
+    '''
     stop = departures["dm"]["points"]["point"]["name"]
     print(f"departures for: { stop }")
     for departure in departures["departureList"]:
@@ -97,10 +116,16 @@ def displayall(departures):
             print(line, route, platform, deptime.strftime(datetime_format), delay)
 
 def getCurrentDate():
+    '''
+    Gbt ein Datetime object zurück
+    '''
     now = datetime.now(timezone)
     return datetime(year=int(now.year),month=int(now.month),day=int(now.day),hour=int(now.hour),minute=int(now.minute),tzinfo=timezone)
 
 def getDateTime(data):
+    '''
+    Konvertiert aus einem String ein DateTime mit führender "0" 
+    '''
     year = data["year"]
     month = data["month"]
     weekday =  data["weekday"]
@@ -122,6 +147,10 @@ def getDateTime(data):
     return date
 
 def displayalltable(rawdata):
+    '''
+    Gibt die nächsten Abfahrten aus.
+    Als ASCI-Tabelle formatiert.
+    '''
     header = [["line","destination","platform","depature","delay","countdown"]]
     data = list(header)
     for departure in rawdata["departureList"]:
@@ -157,6 +186,9 @@ def displayalltable(rawdata):
     print(table.table)
 
 def doc():
+    '''
+    Gibt die richtige Verwendung des Befehls aus.
+    '''
     print("\nCorrect usage of this command\n")
     print("Version 1: departures [Station]")
     print("     In this case the city is 'Ratingen'")
@@ -164,6 +196,9 @@ def doc():
     print("     In this case the city and station are given.")
 
 def start():
+    '''
+    Ziemlich selbsterklärend, oder?
+    '''
     data = asyncio.run(main())
     #displayall(data)
     displayalltable(data)

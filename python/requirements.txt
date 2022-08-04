@@ -1,0 +1,6 @@
+aiohttp
+asyncio
+datetime
+pytz
+terminaltables
+pdoc3
